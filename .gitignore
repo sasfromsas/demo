@@ -1,0 +1,59 @@
+## .gitignore для C# Windows Forms приложения
+
+# Игнорировать файлы сборки и бинарные файлы
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.suo
+
+# Файлы пользовательских настроек Visual Studio
+*.user
+*.userosscache
+*.sln.docstates
+
+# Файлы резервных копий и временные файлы
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Файлы пакетов NuGet
+packages/
+*.nupkg
+NuGet.exe
+
+# Файлы ReSharper
+_ReSharper.*
+*.ReSharper
+
+# Файлы Rider
+.idea/
+
+# Файлы MSBuild
+*.log
+*.msi
+*.pidb
+
+# Файлы тестов
+TestResult.xml
+
+# Файлы публикации
+publish/
+
+# Файлы подключений к БД (не храните пароли в репозитории!)
+*.config
+!app.config
+!Web.config
+connectionstrings.config
+
+# Файлы специфичные для MySQL (если используете)
+*.mdf
+*.ldf
+
+# Файлы специфичные для проекта
+.vs/
+.DS_Store
